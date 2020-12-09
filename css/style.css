@@ -1,0 +1,19 @@
+.content {
+	margin: auto;
+	width: 50%;
+	/* border: 5px solid #FFFF00; */
+	 padding: 10px;
+}
+
+#avatar {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	
+	border-radius: 50%
+}
+
+.main-info {
+	text-align: center;
+	font-family: Consolas
+}

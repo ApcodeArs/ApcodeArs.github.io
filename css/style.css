@@ -2,18 +2,28 @@
 	margin: auto;
 	width: 50%;
 	/* border: 5px solid #FFFF00; */
-	 padding: 10px;
+	padding: 50px 10px 10px;
 }
+
+ @font-face { 
+	 font-family: Consola;
+	 src: url(../fonts/consola.ttf) format("truetype");
+ } 
 
 #avatar {
-	display:block;
-	margin-left:auto;
-	margin-right:auto;
 	
-	border-radius: 50%
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	
+	border-radius: 50%;
 }
 
-.main-info {
+.center-consola-text{
 	text-align: center;
-	font-family: Consolas
+	font-family: Consola;
+}
+
+#footer-hr {
+	width: 50%;
 }

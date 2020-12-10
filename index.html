@@ -8,11 +8,17 @@
     </head>
 
     <body>
-        <div class="content">
+        <div class="content center-consola-text">
 			<img id="avatar" src="img/avatar.png"/>
 			<h1 class="main-info">Arseni Vetchaninov</h1>
 			<h3 class="main-info">Unity developer</h3>
+			
+			<hr id="footer-hr">
+			<p id="footer-info">Arseni Vetchaninov © <span id="cureent-year"></span></p>
 		</div>
     </body>
-
 </html>
+
+<script>
+    document.getElementById("cureent-year").innerHTML = new Date().getFullYear();
+</script>

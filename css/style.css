@@ -1,6 +1,6 @@
 .content {
 	margin: auto;
-	width: 50%;
+	width: 90%;
 	/* border: 5px solid #FFFF00; */
 	padding: 50px 10px 10px;
 }
@@ -23,11 +23,19 @@
 	font-family: Consola;
 }
 
+.links {
+	margin-bottom: 20px;
+}
+
+.links a {
+	text-decoration: none;
+}
+
 #footer-hr {
 	border: none;
     color: LightGray;
     background-color: LightGray;
     height: 1px;
 	
-	width: 50%;
+	width: 450px;
 }
